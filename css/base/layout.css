@@ -34,7 +34,7 @@
   gap: 20px;
   width: 100%;
   padding: 60px 20px;
-  margin: 0 var(--half-gap);
+  align-items: center;
 }
 
 .container > .row {
@@ -42,11 +42,12 @@
   width: 100%;
 }
 
-.conatiner > .row > [class*="col-"].hidden {
+/* .conatiner > .row > [class*="col-"].hidden {
   display: none;
-}
+}*/
 
 .container > .row > [class*="col-"] {
+  float: left;
   margin: 0 var(--half-gap);
 }
 
