@@ -1,0 +1,31 @@
+.btn {
+  padding: 0.8em 1.2em;
+  line-height: 1em;
+  font-size: 14px;
+  text-decoration: none;
+  background-color: var(--primary-color);
+  color: var(--primary-color-anti);
+  border: 1px solid var(--primary-color);
+  border-radius: 0.5em;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn > .btn-icon {
+  margin-left: 10px;
+}
+
+.btn:hover {
+  background-color: var(--primary-color-light);
+  color: var(--primary-color-light-anti);
+}
+
+.btn .btn-white {
+  background-color: var(--primary-color-anti);
+  color: var(--primary-color);
+}
+
+.btn .btn-white:hover {
+  background-color: var(--primary-color);
+  color: var(--primary-color-anti);
+}
