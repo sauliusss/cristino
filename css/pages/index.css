@@ -87,6 +87,8 @@
 }
 
 /* header end */
+
+/* hero start */
 .hero {
   min-height: 100vh;
   background-image: url(../../img/01.png);
@@ -123,6 +125,22 @@
   flex-wrap: wrap;
   gap: 15px;
 }
-/* hero start */
-
 /* hero end */
+
+/* about me start */
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+.about > .profession {
+  font-weight: 600;
+}
+
+.about > img {
+  height: 30px;
+}
+
+/* about me end */

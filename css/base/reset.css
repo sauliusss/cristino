@@ -12,6 +12,13 @@
 }
 
 @font-face {
+  font-family: Montserrat;
+  src: url(../../fonts/Montserrat/Montserrat-SemiBold.ttf);
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
   font-family: Roboto;
   src: url(../../fonts/Roboto/Roboto-Bold.ttf);
   font-weight: bold;
@@ -33,6 +40,13 @@ body {
   font-family: "Montserrat", "Roboto", sans-serif;
 }
 
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.8em;
+  color: #555;
+}
+
 :root {
   --primary-color: #e54b4b;
   --primary-color-anti: #fff;
@@ -50,6 +64,10 @@ body {
 .bg-dark {
   background-color: var(--dark-color);
   color: var(--dark-color-anti);
+}
+
+.primary {
+  color: var(--primary-color);
 }
 
 .center {
