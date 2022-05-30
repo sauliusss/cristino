@@ -87,3 +87,41 @@
 }
 
 /* header end */
+.hero {
+  min-height: 100vh;
+  background-image: url(../../img/01.png);
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+}
+.hero .col-12 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.hero .before-title {
+  font-weight: bold;
+}
+
+.hero .hero-title {
+  font-weight: bold;
+  font-size: 36px;
+  color: var(--primary-color);
+}
+
+.hero .hero-description {
+  margin: 0.5em 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  line-height: 2em;
+  color: var(--dark-color);
+}
+
+.hero .hero-actions {
+  display: flex;
+  gap: 15px;
+}
+/* hero start */
+
+/* hero end */
