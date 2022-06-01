@@ -4,11 +4,13 @@
 @import "../3rd-party/font-awesome.min.css";
 
 @import "../components/button.css";
+@import "../components/hobbies.css";
 
 /* header start */
 .header {
   position: sticky;
   top: 0;
+  z-index: 1;
   padding-top: 15px;
   padding-bottom: 15px;
   background-color: #fff;
