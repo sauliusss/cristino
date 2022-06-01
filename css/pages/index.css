@@ -6,6 +6,7 @@
 @import "../components/button.css";
 @import "../components/hobbies.css";
 @import "../components/achievements.css";
+@import "../components/progress-bar-group.css";
 
 /* header start */
 .header {
@@ -195,3 +196,21 @@
 /* hobbies start */
 
 /* hobbies end  */
+
+/* expertise start */
+.expertise {
+  background-image: url(../../img/skills.jpg);
+  background-size: 35% auto;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 992px) {
+  .expertise {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-image: url(../../img/skills.jpg);
+  }
+}
+
+/* expertise end */
