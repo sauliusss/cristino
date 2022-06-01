@@ -1,0 +1,32 @@
+.progress-bar-group {
+  display: grid;
+  grid-template-columns: 15px 1fr;
+  gap: 15px;
+}
+
+.progress-bar-group > .group-options {
+  display: grid;
+  gap: 15px;
+  align-content: start;
+}
+
+.progress-bar-group > .group-options > .option {
+  padding: 10px 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.progress-bar-group > .group-options > .option.active {
+  background-color: var(--primary-color);
+  color: var(--primary-color-anti);
+}
+
+.progress-bar-group > .bar-list {
+  display: grid;
+  gap: 10px;
+}
+
+.progress-bar-group > .bar-list > .progress-bar {
+  height: 70px;
+}
