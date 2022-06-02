@@ -215,3 +215,20 @@
 }
 
 /* expertise end */
+
+/* freelancer start */
+.freelancer-block {
+  padding: 10px;
+}
+
+.freelancer {
+  background-image: url(../../img/hireme.jpg);
+  /* background-size: cover; */
+  background-position: center;
+  border-radius: 10px;
+}
+
+.freelancer-block .btn {
+  margin-top: 2em;
+}
+/* freelancer end */

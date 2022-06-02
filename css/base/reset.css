@@ -117,6 +117,16 @@ p {
   transform: translateX(18px);
 }
 
+.section-title.section-title-empty {
+  color: #fff;
+}
+
+.section-title.section-title-empty::before,
+.section-title.section-title-empty::after,
+.section-title.section-title-empty > .line {
+  display: none;
+}
+
 .section-description {
   color: var(--dark-color);
 }
