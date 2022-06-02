@@ -15,6 +15,7 @@
   border-radius: 6px;
   border: 1px solid #ccc;
   text-align: center;
+  cursor: pointer;
 }
 
 .progress-bar-group[data-group="1"] > .option[data-group="1"],
@@ -26,17 +27,16 @@
 
 .progress-bar-group > .bar-list {
   display: grid;
-  gap: 10px;
+  gap: 50px;
   align-content: start;
 }
 
 .progress-bar-group > .bar-list > .progress-bar {
   display: none;
-  height: 70px;
 }
 
 .progress-bar-group[data-group="1"] > .progress-bar[data-group="1"],
 .progress-bar-group[data-group="2"] > .progress-bar[data-group="2"],
 .progress-bar-group[data-group="3"] > .progress-bar[data-group="3"] {
-  display: block;
+  display: flex;
 }
