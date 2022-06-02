@@ -232,3 +232,17 @@
   margin-top: 2em;
 }
 /* freelancer end */
+
+/* Contact start */
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  text-align: center;
+}
+
+.contact > .icon {
+  font-size: 30px;
+}
+/* Contact end */
