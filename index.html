@@ -433,12 +433,26 @@
 
 
       <div class="row">
-        <form class="col-12">
-          <!-- <input type="text">
-          <input type="text">
-          <input type="text">
-          <textarea name="" id=""></textarea>
-          <button type="submit"></button> -->
+        <form class="col-12 form">
+          <div class="form-group" data-group="name">
+            <label for="name"></label>
+            <input name="first-name" id="name" type="text" placeholder="First Name" autocomplete="name" required>
+          </div>
+          <div class="form-group" data-group="email">
+            <label for="email">Email</label>
+            <input name="personal email" id="email" type="text" placeholder="Your email" autocomplete="" required>
+          </div>
+          <div class="form-group" data-group="subj">
+            <label for="message">Subject</label>
+            <input name="subject" id="message" type="text" placeholder="Your subject" autocomplete="off" required>
+          </div>
+          <div class="form-group" data-group="msg">
+            <label for="message">Message</label>
+            <textarea name="messagetext" id="message" placeholder="Your message" autocomplete="off" required></textarea>
+          </div>
+          <div class="form-group" data-group="btn">
+            <button type="submit" class="btn">Send message</button>
+          </div>
         </form>
       </div>
     </section>
